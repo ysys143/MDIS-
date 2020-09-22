@@ -3,7 +3,7 @@ rm(list=ls())
 library(dplyr)
 library(tidyverse)
 
-mdis <- read.table("~/Google/R_Jaesol/보육요양 조사자료/보육교사_2015.csv", header=FALSE, sep=",", colClasses = c("character"
+mdis <- read.table("~/Google/R_Jaesol/보육요양 조사자료/보육교사_2015.csv", header= TRUE, sep=",", colClasses = c("character"
                                                                                                     , "character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "character", "numeric", "numeric"
                                                                                                     , "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "character", "character", "numeric", "numeric", "numeric", "numeric", "character", "character", "character", "character"
                                                                                                     , "character", "character", "character", "character", "character", "numeric", "numeric", "character", "character", "character", "character", "character", "character", "character", "character", "character", "character", "character", "character", "numeric"
